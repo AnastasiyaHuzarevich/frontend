@@ -1,0 +1,58 @@
+
+#background {
+    background-color: #181721;
+    background-image: linear-gradient(to right, #151c96, #690f80),url("./assets/image2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 40vh;
+    background-attachment: fixed;
+    background-blend-mode: screen;
+
+}
+
+.form-control:valid {
+    background-color: #28273A!important;
+    width: 45vw;
+    border: #28273A;
+    height: 6vh;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+}
+
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 30px;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+ul{
+    text-align: left;
+    display: inline-block;
+    min-width: 50vw;
+    background-color: #28273A;
+    border-radius: 10px;
+}
+
+li {
+    list-style: none;
+    min-width: 50vw;
+    height: 6vh;
+    padding: 8px 12px;
+    background-color: #28273A;
+    border: 0px ridge #28273A;
+    background-blend-mode: normal;
+    width: 50%;
+    border-radius: 10px;
+}
+
+h1{
+    font-weight: bold;
+}
+
+h9{
+    color: #70707a;
+}
